@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+                android:padding="10dp"
+            android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="119dp" />
+
+    <TextView
+        android:id="@+id/textTitleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TItle"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <VideoView
+        android:id="@+id/videoViewDialog"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

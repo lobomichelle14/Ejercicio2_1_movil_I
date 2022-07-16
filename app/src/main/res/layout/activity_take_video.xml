@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TakeVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="VIVIAN LOBO"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="63dp"
+            android:layout_height="54dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_back" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnTakeVideo"
+            android:layout_width="278dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#9C27B0"
+            android:text="grabar video"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSaveVideo"
+            android:layout_width="268dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#9C27B0"
+            android:text="Guardar video"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
